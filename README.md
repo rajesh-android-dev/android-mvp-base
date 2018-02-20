@@ -3,9 +3,9 @@
 <p>&nbsp;</p>
 <p>This is a simple andrid project developed using MVP pattern to achieve the clean architecture.<strong>&nbsp;</strong></p>
 <p>It is based on the article by&nbsp;<a href="https://blog.mindorks.com/essential-guide-for-designing-your-android-app-architecture-mvp-part-1-74efaf1cda40#.lkml1yggq">Mindorks</a>. Refer their blog to get a clear picture about the implementation.</p>
-<p>&nbsp;</p>
-<p><img src="https://giphy.com/gifs/l2hhLijQaODHvIBYoJ/html5" /></p>
-<p>&nbsp;</p>
+
+<img src="https://github.com/rajesh-android-dev/android-mvp-base/blob/master/img/20180220_184457.gif" width = 40% height = 40%/>
+
 <p>"<span style="color: #666699;"><em>MVP is a user interface&nbsp;<a class="mw-redirect" style="color: #666699; text-decoration: underline;" title="Architectural pattern (computer science)" href="https://en.wikipedia.org/wiki/Architectural_pattern_(computer_science)">architectural pattern</a>&nbsp;engineered to facilitate&nbsp;<a style="color: #666699; text-decoration: underline;" title="Test automation" href="https://en.wikipedia.org/wiki/Test_automation">automated</a>&nbsp;<a style="color: #666699; text-decoration: underline;" title="Unit testing" href="https://en.wikipedia.org/wiki/Unit_testing">unit testing</a>&nbsp;and improve the&nbsp;<a style="color: #666699; text-decoration: underline;" title="Separation of concerns" href="https://en.wikipedia.org/wiki/Separation_of_concerns">separation of concerns</a>&nbsp;in presentation logic:</em></span></p>
 <ul>
 <li><span style="color: #666699;"><em>The&nbsp;model&nbsp;is an interface defining the data to be displayed or otherwise acted upon in the user interface.</em></span></li>
