@@ -14,7 +14,6 @@
 </ul>
 <p><em>source : <a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter">wikipedia</a></em></p>
 <p>In a nutshell : MVP is mainly used to achieve the <strong>separation of concerns</strong> and to make the code <strong>easy to test and reusable</strong>.</p>
-<p>&nbsp;</p>
 <h2>MVP Structure</h2>
 <p style="padding-left: 30px;">MVP divides the project structure into thre major components</p>
 <ol>
@@ -22,7 +21,6 @@
 <li><strong>View </strong>-&nbsp;&nbsp;Which is responsible for inflating the views and performing UI operations respective to the data received</li>
 <li>Presenter - Which acts like a bridge between Model and View. All the business logics will be written under presenter only</li>
 </ol>
-<p>&nbsp;</p>
 <h2>How it works</h2>
 <p style="padding-left: 30px;">In this section, we will go through the working structure of MVP pattern</p>
 <ul>
@@ -31,7 +29,6 @@
 <li>Then the Presenter will instruct the view to update the UI with corrsponding to the data provided.&nbsp;</li>
 <li>Model will fetch the data required for presenter from any of the storages like Server, Database, Preference or File storage</li>
 </ul>
-<p>&nbsp;</p>
 <h2>Introduction</h2>
 <p style="padding-left: 30px;">In this scection, we will understand what is a Model, View &amp; Presenter in an android project.</p>
 <ul>
