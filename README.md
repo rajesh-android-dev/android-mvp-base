@@ -15,6 +15,39 @@
 <p><em>source : <a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter">wikipedia</a></em></p>
 <p>In a nutshell : MVP is mainly used to achieve the <strong>separation of concerns</strong> and to make the code <strong>easy to test and reusable</strong>.</p>
 <p>&nbsp;</p>
+<h2>MVP Structure</h2>
+<p style="padding-left: 30px;">MVP divides the project structure into thre major components</p>
+<ol>
+<li><strong>Model</strong> - Which is responsible for all the data handling operations</li>
+<li><strong>View </strong>-&nbsp;&nbsp;Which is responsible for inflating the views and performing UI operations respective to the data received</li>
+<li>Presenter - Which acts like a bridge between Model and View. All the business logics will be written under presenter only</li>
+</ol>
+<p>&nbsp;</p>
+<h2>How it works</h2>
+<p style="padding-left: 30px;">In this section, we will go through the working structure of MVP pattern</p>
+<ul>
+<li>View will layout the UI for the specific page.</li>
+<li>The user interactions will be send over to the Presenter, where the presenter will fetches the data from the model or perform any business logic</li>
+<li>Then the Presenter will instruct the view to update the UI with corrsponding to the data provided.&nbsp;</li>
+<li>Model will fetch the data required for presenter from any of the storages like Server, Database, Preference or File storage</li>
+</ul>
+<p>&nbsp;</p>
+<h2>Introduction</h2>
+<p style="padding-left: 30px;">In this scection, we will understand what is a Model, View &amp; Presenter in an android project.</p>
+<ul>
+<li style="padding-left: 30px;">A will be of any element with an UI like Activity, Fragment or Custom views</li>
+<li style="padding-left: 30px;">A presenter is a pure java class which doesn't have any access to Android Apis</li>
+<li style="padding-left: 30px;">View communicate with presenter through an interface and vice versa</li>
+<li style="padding-left: 30px;">Model consists of different elements since data can be acquired from any type of source. The main part of model is Data Manager class which is connected to four helper classes namely
+<ul>
+<li style="padding-left: 30px;">ApiHelper (For api related calls)</li>
+<li style="padding-left: 30px;">PreferenceHelper (For getting data from Shared Prefernce)</li>
+<li style="padding-left: 30px;">DatabaseHelper (For getting data from local DB)</li>
+<li style="padding-left: 30px;">FileHelper (For getting data from local files)</li>
+</ul>
+</li>
+<li>Likewise View, Presenter will communicate with model through an interface</li>
+</ul>
 <h2>Third party libraries used</h2>
 <ol>
 <li><a href="https://github.com/google/dagger">Dagger2</a>&nbsp;- For dependency injection</li>
