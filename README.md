@@ -32,7 +32,7 @@
 <h2>Introduction</h2>
 <p style="padding-left: 30px;">In this scection, we will understand what is a Model, View &amp; Presenter in an android project.</p>
 <ul>
-<li style="padding-left: 30px;">A will be of any element with an UI like Activity, Fragment or Custom views</li>
+<li style="padding-left: 30px;">A View will be of any element with an UI like Activity, Fragment or Custom views</li>
 <li style="padding-left: 30px;">A presenter is a pure java class which doesn't have any access to Android Apis</li>
 <li style="padding-left: 30px;">View communicate with presenter through an interface and vice versa</li>
 <li style="padding-left: 30px;">Model consists of different elements since data can be acquired from any type of source. The main part of model is Data Manager class which is connected to four helper classes namely
