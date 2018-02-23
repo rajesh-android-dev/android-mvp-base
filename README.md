@@ -19,7 +19,7 @@
 <ol>
 <li><strong>Model</strong> - Which is responsible for all the data handling operations</li>
 <li><strong>View </strong>-&nbsp;&nbsp;Which is responsible for inflating the views and performing UI operations respective to the data received</li>
-<li>Presenter - Which acts like a bridge between Model and View. All the business logics will be written under presenter only</li>
+<li><strong>Presenter</strong> - Which acts like a bridge between Model and View. All the business logics will be written under presenter only</li>
 </ol>
 <h2>How it works</h2>
 <p style="padding-left: 30px;">In this section, we will go through the working structure of MVP pattern</p>
