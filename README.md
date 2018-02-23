@@ -45,7 +45,7 @@
 </li>
 <li>Likewise View, Presenter will communicate with model through an interface</li>
 </ul>
-<h2>Libraries used</h2>
+<h2>Dependencies involved</h2>
 <ol>
 <li><a href="https://github.com/google/dagger">Dagger2</a>&nbsp;- For dependency injection</li>
 <li><a href="http://square.github.io/retrofit/">Retrofit</a>&nbsp;- For making api calls</li>
