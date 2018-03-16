@@ -1,7 +1,7 @@
 <!-- #######  YAY, I AM THE SOURCE EDITOR! #########-->
 <h1 style="color: #5e9ca0;">Android MVP Pattern</h1>
 <p>&nbsp;</p>
-<p>This is a simple andrid project developed using MVP pattern to achieve the clean architecture.<strong>&nbsp;</strong></p>
+<p>This is a simple android project developed using MVP pattern to achieve the clean architecture.<strong>&nbsp;</strong></p>
 <p>It is based on the article by&nbsp;<a href="https://blog.mindorks.com/essential-guide-for-designing-your-android-app-architecture-mvp-part-1-74efaf1cda40#.lkml1yggq">Mindorks</a>. Refer their blog to get a clear picture about the implementation.</p>
 
 <img src="https://github.com/rajesh-android-dev/android-mvp-base/blob/master/img/20180220_184457.gif" width = 40% height = 40%/>
